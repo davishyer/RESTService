@@ -1,0 +1,18 @@
+{
+02   "author": "Brad Dayley",
+03   "name": "censorify",
+04   "version": "0.1.1",
+05   "description": "Censors words out of text",
+06   "main": "censortext",
+07  "repository": {
+08    "type": "git",
+09    "url": "http://github.com/bwdayley/nodebook/tree/master/ch03/censorify"
+10   },
+11   "keywords": [
+12     "censor",
+13     "words"
+14  ],
+15   "dependencies": {},
+16   "engines": {
+17       "node": "*"
+18   }
