@@ -6,3 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+
+alias cd...='cd ../..'
+alias die='exit'
+alias ls='ls --color=always -X --group-directories-first'
