@@ -1,0 +1,1 @@
+angular.module('datingApp', ['ngRoute', 'appRoutes', 'mainCtrl', 'loginCtrl']);

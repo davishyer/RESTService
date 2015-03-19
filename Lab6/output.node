@@ -1,0 +1,20 @@
+nohup: ignoring input
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Hello world! </h1>
+</body>
+</html>
+
+comment route
+Document Array: 
+[ { Name: 'Mickey',
+    Comment: 'Hello',
+    _id: 54ff1f5701394aaf06a77f6f },
+  { Name: 'Mickey',
+    Comment: 'Hello',
+    _id: 54ffab9e43ad09810ac16ae8 },
+  { Name: 'Davis', Comment: 'Test', _id: 5501ae28caf8ccb31e6a23d0 },
+  { Name: 'Mickey',
+    Comment: 'Test',
+    _id: 5501b21eeb11d3e91e3535bc } ]
