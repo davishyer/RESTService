@@ -1,644 +1,1000 @@
-sudo yum list
-sudo yum update
-sudo yum install gcc-c++ make
-sudo yum install openssl-devel
-sudo yum install git
-cd/usr/local/src
-cd /usr/local/src
-sudo git clone git://github.com/joyent/node.git
-cd node
-ls
-sudo git checkout v0.10.21
-pwd
-ls
-sudo ./configure
-sudo make
-sudo make install
-sudo su
-cd /usr/local/src/node/
-sudo su
-cd /usr/local/src/
-sudo git clone https://github.com/isaacs/npm.git
-cd npm/
-sudo make install
-cd npm
-sudo npm install express -g
-sudo npm install forever -g
-sudo npm install connect serve-static -g
-sudo mkdir /var/node
-sudo chown ec2-user /var/node
-vim simple.js
-sudo ll simp*.js
-ll simp*.js
-caja
-caja ..
-ll /var/node
-chmod /var/node
-chmod 666 /var/node
-ls -ld /var/node
-vim simple.js
-vim /var/node/simple.js
-ls
+vim html/test.html 
+sudo node server.js 
+vim html/test.html 
+sudo node server.js 
+vim html/test.html 
+sudo node server.js 
+vim html/
+vim html/test.html 
+sudo node server.js 
+vim html/
+vim html/test.html 
+sudo node server.js 
+cd html/
+vim style.css 
 cd ..
-cd
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/test2.html
+sudo node server.js 
+vim html/test2.html 
+sudo node server.js 
+vim html/test2.html 
+sudo node server.js 
+vim html/test2.html 
+sudo node server.js 
+vim html/test2.html 
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/test2.html 
+vim html/style.css 
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/style.css 
+vim html/test2.html 
+sudo node server.js 
+vim html/style.css 
+sudo node server.js 
+vim html/test2.html 
+vim html/style.css 
+sudo node server.js 
+vim html/style.css 
+vim html/test2.html 
+sudo node server.js 
+cd Lab6/
+sudo node server.js 
+die
+cd Lab6/
+sudo node server.js 
+bg
 ls
-cd ..
+cd html/
 ls
-cd ec2-user/
-ls
-cd /src/npm
-sudo ls
-cd /usr/local/src
-ls
-cd npm
-ls
-sudo mkdir /var/node
-cd var
-ls -l /var/node
-ls -l /var
-cd /var/node
-pwd
-cd node
-ls -l /var/node
-ls -ld /var
-chmod 777 /var/node
-ls -ld /var/node
-vi simple.js
-ls
-ll -l /var
-cd ..
+cd views/
 ls
 cd ..
 ls
+vim test2.html 
+die
+ps ax | grep node
+sudo kill 975
+ps ax | grep node
+die
+cd Lab6/
+vim server.js 
+die
+cd Lab6/
+ls
+sudo node express.js 
+vim express.js 
+sudo node express.js 
+vim express.js 
+sudo node express.js 
+ls
+git branch
+git status
+git add
+git add .
+git commit
+git commit -m 'Lab 8'
+git push
+cd ..
+cd dating-app/dating-app/
+git branch
+git branch master
+git pull master
+man git
+git checkout master
+git pull
+git status
+ls
+sudo node app.js
+cd public/
+ls
+cd ..
+sudo node app.js 
+ls
+cd routes/
+ls
+cd ..
+vim app.js 
+npm install
+node app.js
+ls
+cd dating-app/dating-app/
+ls
+cd public/
+ls
+cd views/
+ls
 cd ..
 ls
-cd root/
+cd ..
 ls
-cd usr/local/src/npm/
+git branch
+git branch -d database-setup
+git status
+sudo node app.js
+die
+cd dating-app/dating-app/
+node app.js 
+git branch facebooklogin
+git branch
+git checkout facebooklogin
 ls
-vim /var/node/simple.js
-sudo node simple.js
-sudo node /var/node/simple.js
-vim /var/node/simple.js 
-sudo node /var/node/simple.js
-cd /usr/local/src/npm/
-sudo node /var/node/simple.js
+cd public/
 ls
-ll
-pwd
+cd views/
+ls
+vim login.html 
+cd ..
+ls
+cd index.html 
+vim index.html 
+cd ..
+node app.js 
+clear
+cd public/
+cd views/
+ls
+vim login.html 
+cd ..
+ls
+cd css
+ls
+vim style.css
+vim styleFB.css
+ls
+cd ..
+ls
+cd view
+ls
+cd views/
+ls
+vim login.html 
 cd ../..
 ls
+node app.js 
+cd public/
+vim index.html 
+cd ..
+cd L
+cd Lab6/
+ls
+sudo node server.js 
+vim index.html 
+rm index.html 
+ls
+cd html/
+ls
+vim test3.html
+cd ..
+sudo node server.js 
+cd ..
+cd dating-app/dating-app/
+ls
+cd public/
+ls
+cd views/
+vim login.html 
+cd ../..
+node app.js 
+cd ../..
+cd Lab6/
+vim express.js 
+ls
+cd html
+ls
+vi service.html 
+cd ..
+vim express.js 
+cd html/
+ls
+vi service.html 
+cd ..
+vi express.js 
+cd html
+vi service.html 
+cd dating-app/dating-app/
+ls
+cd public/
+ls
+cd views/
+ls
+vim login.html 
+cd ../..
+node app.js 
+cd ..
+cd dating-app/
+ls
+vim app.js 
+vim public/facebooklogin.html
+node app.js 
+vim public/views/login.html 
+git branch
+git pull-request -F 
+git --help
+git status
+git add .
+git commit -a 'Facebook login logic'
+git commit -m 'Facebook login logic'
+git status
+git push
+git push --set-upstream origin facebooklogin
+node app.js 
+mkdir Lab 9
+mv Lab\ 9/ Lab9
+cd Lab/
+cd ..
+rm Lab
+mv Lab Lab9
+ls
+rm -r 9
+cd Lab9
+vim express.js
+mkdir static
+vim static/index.html
+vim app.js
+vim static/index.html 
+sudo node express.js 
+vim static/index.html 
+vim app.js 
+sudo node express.js 
+sudo node app.js 
+vim app.js 
+node express.js 
+sudo node express.js 
+vim express.js 
+mv * ..
+ls
 cd ..
 ls
-ls -ld /var/node
-cd usr/
-ls
-cd local/
-ls
-cd src/
-ls
-cd npm/
-ls
+sudo node express.js 
+chmod 777 app.js 
+sudo node express.js 
+node express.js 
 clear
-vim /var/node/server.js
-sudo node /var/node/server.js 
+mv *.js Lab9
 ls
-cd /usr/
+mv static/ Lab9
 ls
-cd src/
+cd Lab9
 ls
+sudo node express.js 
+ms static/* ..
+mv static/* ..
+ls
+cd static/
+cd ../..
+mv index.html Lab9
+cd Lab9
+sudo node express.js 
+mv app.js static/
+mv index.html static/
+sudo node express.js 
+vim static/app.js 
+sudo node express.js 
+vim static/index.html 
+sudo node express.js 
+vim static/index.html 
+vim static/app.js 
+vim static/index.html 
+sudo node express.js 
+vim static/index.html 
+vim static/app.js 
+sudo node express.js 
+vim static/index.html 
+vim static/app.js 
+sudo node express.js 
+vim static/index.html 
+sudo node express.js 
+vim static/app.js 
+sudo node express.js 
+vim static/index.html 
+sudo node express.js 
+vim static/index.html 
+vim static/app.js 
+sudo node express.js 
+die
+cd Lab6
+ls
+cd html/
+ls
+vim test2.html 
+vim style.css 
+vim test2.html
+rm test2.html
+vim test2.html
+vim facebook.js
 cd ..
-cd etc
+sudo node server.js 
+cp html/facebook.js ../dating-app/dating-app
+cd ../dating-app/dating-app/
 ls
+mv facebook.js public/
+cd public/
+ls
+git branh
+git branch
+clear
+ls
+cd views/
+ls
+vim login.html 
 cd ..
 ls
-cd local/
+cd css
 ls
-cd src/
+vim style.
+vim style.css 
+did
+die
+cd dating-app/dating-app/
+sudo node app.js 
 ls
-cd npm
+cd public/
 ls
-cd /var/node
-ls
-sudo node server.js
-exitg
-exit
-cd /usr/local/src/
-ls
-cd npm/
-ls
-cd /var/node
-sudo node server.js
-vim server.js 
-sudo node server.js
-vim server.js 
-sudo node server.js
-scp d -r dhyer3@localhost:/Old-Labs/CS360/Server/cs360 ~/usr/local/src/npm/var/node
-which git
-git config --global user.name "davishyer"
-npm adduser
-vim server.js 
+vim index.html 
 cd ..
-ls
-cd ..
-ls
-mkdir Lab6
+node app.js 
+vim app.js 
+node app.js 
+vim app.js 
+cd ../..
+cd Lab
 ls
 cd Lab6
-pwd
-cd home/ec2-user
-pwd
 ls
-mkdir Lab6
-cd Lab6/
-vim server.js
-vim server.js 
-node server.js
-vim server.js
-node server.js
-vim server.js 
-ls
-mkdir html
 sudo node server.js 
-scp dhyer3@localhost:Old-Labs/CS360/Server/cs360/* html
-scp dhyer3@localhost:~/Old-Labs/CS360/Server/cs360/* html
+cd Lab6
+sudo node server.js 
+ps ax | grep node
+sudo kill 5810
+sudo node server.js 
+cd ../dating-app/dating-app/
 ls
-cd html/
+node app.js 
+cd public/
 ls
-scp dhyer3@localhost:~/Old-Labs/CS360/Server/cs360/* html
-logout
-exit
+cd views/
 ls
-man mvdir
-man move
-mv cs360 Lab6/html
-ls
-cd Lab6/
-ls
-cd html/
-ls
+vim login.html 
 cd ..
-sudo node server.js 
+vim facebooklogin.html 
 ls
-cd Lab6/
+cd views/
 ls
-sudo node server.js 
-ls
-geany server.js 
-vim server.js 
-sudo node server.js 
-clear
-sudo node server.js 
-clear
-sudo node server.js 
-cd Lab6/
-ls
-cd html/
-ls
-cd cs360/
-ls
-cd test/
-ls
-cd ..
-vim server.js 
-ls
-vim server.js
-vim server.js 
-vim hello.html
-ls
-mv hello.html html/
-ls
-cd Lab6/
-ls
-vim server.js 
-cd Lab6/
-sudo node server.js 
-cd Lab6/
-ls
-sudo node server.js 
-cd Lab6/
-sudo node server.js 
-cd html/
-wget https://students.cs.byu.edu/~dhyer3/CS360/Weather/home.html
-ls
-cd ..
-sudo node server.js 
-ls
-cd Lab6/
-ls
-sudo node server.js 
+vim login.html 
+vim home.html 
 cd .
-cp bootstrap.js ~/Lab6/
+cd ..
+vim index.html 
+die
+cd dating-app/dating-app/
+ls
+git branch
+git pull master
+cd public/
+ls
+cd js
+ls
+scp dhyer3@localhost:~/CS360/dating-app/public/js/fb-angular.js
+scp dhyer3@schizo.cs.byu.edu:~/CS360/dating-app/public/js/fb-angular.js
+scp dhyer3@schizo.cs.byu.edu:~/CS360/dating-app/public/js/fb-angular.js .
 ls
 cd ..
 ls
-cp bootstrap.js ~/Lab6/
-cd Lab6/
+cd views
 ls
-cd ..
-cp *.js ~/Lab6/
-ls
-rm bootstrap.js
-ls
-cd Lab6/
-ls
-cd ..
-ls
-rm *.js
-ls
-mv bootstrap.min.css ~/Lab6/
-mv home.html ~/Lab6/
-mv index.html ~/Lab6/
-ls
-mv lab-5.css ~/Lab6/
-ls
-cd Lab6/
-ls
-mkdir Weather-Images
-ls
-vim server.js 
-sudo node server.js 
-vim server.js 
-ls
-mv b*.js html
-ls
-mv *.html html
-ls
-mv *.css html
-ls
-mv l*.js html/
-ls
-mv Weather-Images/ html/
+vim login.html 
+cd Lab6
 ls
 cd html/
 ls
 cd ..
+node server.js 
+ps ax | grep node
 sudo node server.js 
-exit
-cd Lab6/
+vim html/test2.html 
+vim html/facebook.js 
+cd dating-app/dating-app/
+git branch
+git branch -r
+git pull request
+git checkout angularSetup2
+cd dating-app/dating-app/
 ls
-cd html/
-ls
-cd Weather-Images/
-ls
-cd ..
-ls
-sudo node server.js 
-cd /usr/local/src/
-sudo curl -O http://downloads.mongodb.org/linux/mongodb-linux-x86_64-2.4.8.tgz
-sudo tar -zxvf mongodb-linux-x86_64-2.4.8.tgz 
-cd mongodb-linux-x86_64-2.4.8
-sudo cp bin/* /usr/local/bin/
-sudo mkdir /data
-ls
-sudo mkdir /data/db
-sudo nohup mongod --fork --logpath /var/log/mongodb.log
-ps ax | grep mongo
-git init
+git branch -r
+git fetch
+git checkout angularSetup2
+git status
 git add .
-git commit -m 'First commit'
-git remote add origin https://github.com/davishyer/RESTService.git
-git remote -v
-git push origin master
+git commit
+git commit -m 'Facebook'
+git config --global user.name davishyer
+git config --global user.email davishyer@gmail.com
+git commit --amend --reset-author
+git push
+git checkout angularSetup2
 ls
-cd Lab6/
-git clone https://github.com/davishyer/RESTService
+node app.js 
+cd Lab9/
 ls
-cd RESTService/
+vim static/index.html 
+vim static/app.js 
+vim static/index.html 
+vim static/app.js 
+vim static/index.html 
+sudo node express.js 
+vim static/app.js 
+vim static/index.html 
+sudo node express.js 
+vim static/app.js 
+vim static/index.html 
+sudo node express.js 
+vim static/index.html 
+vim static/app.js 
+sudo node express.js 
+vim static/index.html 
+vim static/AP
+vim static/app.js 
+sudo node express.js 
+ps ax | grep node
+npm install -g express-generator
+clear
 ls
-explorer
+cd static/
+npm install -g express-generator
+sudo npm install -g express-generator
+cd ..
+express --ejs weather-news
+cd weather-news/
+npm install
+ls
+npm install --save mongoose
+ls
+vim bin/www 
+sudo npm start
+bg
+ls
+vim views/index.ejs
+vim routes/index.js 
+mkdir models
+ls
+ls ..
+cp ../static/index.html views/index.ejs 
+cp ../static/app.js public/javascripts/angularApp.js
+vim views/index.ejs 
+ps ax | grep node
+vim public/javascripts/angularApp.js 
+clear
+vim app.js 
+vim models/Posts.js
+vim models/Comments.js
+vim app.js 
+vim routes/index.js 
+curl --data 'title=test' http://52.11.62.194:80/posts
+ps ax | grep node
+fg
+sudo npm start
+bg
+curl --data 'title=test' http://localhost:80/posts
+vim routes/index.js 
+fg
+sudo npm start
+bg
+vim public/javascripts/angularApp.js 
+fg
+sudo npm start
+bg
+vim public/javascripts/angularApp.js 
+vim views/index.ejs 
+fg
+sudo npm start
+bg
+cd Lab9
+ls
+cd weather-news/
+sudo npm start
+ps ax | grep node
+sudo kill 16987
+sudo killall 16987
+ps ax | grep node
+clear
+sudo npm start
+ps ax | grep node
+clear
 cd ..
 ls
-cp server.js RESTService/
-cd RESTService/
+cd weather-news/
+ls
+vim app.js 
+cd models/
 ls
 cd ..
-cp -r html/ RESTService/
+vim models/Posts.js 
 ls
-cd RESTService/
-cd html/
+cd routes/
+ls
+vim index.js 
+ps ax | grep node
+sudo npm start
+bg
+fg
 ls
 cd ..
 ls
-cp cities.dat.txt RESTService/
+sudo npm start
+bg
+curl -X PUT http://localhost:80/posts/551192773ca69ffb410fea61/upvote
+die
+cd dating-app/dating-app/
 ls
-cd RESTService/
+git branch -r
+git fetch
+git branch -r
+git checkout angularSetup2
+git pull
 git status
-git add --all
+git add .
 git status
-git commit --all -m 'First commit'
+git pull
+git commit -m 'I hate git sometimes!!'
+git pull
+git status
+ls
+node app.js 
+sudo node app.js 
+clear
+ls
+git status
+git add public/css/style.css
+git status
+git commit
 git status
 git push
 ls
-cd Lab6/
+node app.js 
+ps ax | grep node
+die
+cd Lab9
 ls
-mkdir censorify
-cd censorify/
-vim censortext.js
-cat package.json
-cat > package.json
-ls
-vim package.json 
-vim README.md
-ls
-vim README.md
-ls
-npm pack
-cd ..
-ls
-npm pack
-cd Lab6/
-ls
-cd censorify/
-npm pack
-sudo npm pack
-ls
-cd npm-debug.log 
-vim npm-debug.log 
-ls
-vim package.json 
-sudo npm pack
-ls
-cd ..
-cd .
-cd ..
-npm adduser
-cd Lab6/
-ls
-cd censorify/
-ls
-sudo npm publish
-sudo npm adduser
-sudo npm publish
-ls
-vim package.json 
-rm RESTService-0.1.1.tgz 
-ls
-sudo npm pack
-sudo npm publish
-vim package.json 
-rm Rest-0.1.1.tgz 
-sudo npm pack
-sudo npm publish
-cd ..
-ls -ld censor
-ls -ld cen*
-ll
-ls -l cen*
-ls -lr cen*
-man ls
-ls -R cen*
-cd Lab6/
-ls
-cd RESTService/
-ls
-cd ..
-cd censorify/
-ls
-npm publish
-[ec2-user@ip-172-31-34-149 censorify]$ npm publish
-npm ERR! Linux 3.14.27-25.47.amzn1.x86_64
-npm ERR! argv "node" "/usr/local/bin/npm" "publish"
-npm ERR! node v0.10.21
-npm ERR! npm  v2.6.1
-npm ERR! Invalid name: "DavisHyer_RESTService"
-npm ERR!
-npm ERR! If you need help, you may report this error at:
-npm ERR!     <http://github.com/npm/npm/issues>
-npm ERR! Please include the following file with any support request:
-npm ERR!     /home/ec2-user/Lab6/censorify/npm-debug.log
+vim static/app.js 
+die
+cd Lab6
 ls
 cd Lab6/
 ls
-cd censorify/
+vim express.js 
+cd Lab6/
+sudo node express.js 
+bg
+cd Lab9/
 ls
-vim package.json 
-rm DavisHyer_RESTService-0.1.1.tgz 
-npm pack
-npm publish
+ps ax | grep node
+cd weather-news/
+ls
+vim routes/index.js 
+vim models/Comments.js 
+vim routes/index.js 
+sudo npm start
+bg
+curl --data 'body=good' http://localhost:80/posts/550c9497db8319205fc6cf1c/comments
+vim routes/index.js 
+curl http://localhost:80/posts
+ps ax | grep node
+curl --data 'body=good' http://localhost:80/posts/551192773ca69ffb410fea61/comments
+ps ax | grep node
+clear
+vim routes/index.js 
+curl http://localhost:80/posts
+fg
+vim app.js 
+clear
+ls
+ls public/
+ls public/javascripts/
+ls
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+vim public/javascripts/angularApp.js 
+sudo npm start
+cd dating-app/dating-app/
+git branch
+git fetch
+git branch -r
+git checkout master
+git pull
+git checkout master
+ls
+sudo node app.js 
+sudo npm install async
+sudo node app.js 
+bg
+hostname
+die
+cd dating-app/dating-app/
+sudo node app.js 
+ps ax | grep node
+sudo killall 24023
+sudo kill 24023
+sudo node app.js 
+ls
+ls public/views/
+git branch
+git branch -r
+git fetch
+git branch -r
+git branch -D facebooklogin
+git push
+git branch
+git branch -r
+git fetch -p
+git branch -r
+git pull
+git status
+git branch
+git branch -r
+git fetch
+git fetch -p
+git branch -r
+git branch loginView
+git checkout loginView
+ls
+cd public/
+ls
+cd js
+ls
+cd app
+vim app.js 
+cd dating-app/dating-app/
+ls
+cd public/js/
+vim app.js 
+rm .app.js.swp 
+vim app.js 
+ls
+vim controllers.js 
+ls
+vim services.js 
+vim app.js 
+vim facebook_angular.js
+vim app.js 
+ls
 cd ..
 ls
-man hup
-man nohup
-nohup sudo node server.js
+cd views/
+ls
+vim login.html 
+cd ..
+ls
+sudo node app.js 
+cd Lab9/
+ls
+cd weather-news/
+sudo npm start
+bg
+ls
+vim models/Posts.js 
+ls
+vim app.js 
+vim models/Posts.js 
+vim models/Comments.js 
+vim models/Posts.js 
+fb
+fg
+sudo npm start
+vim models/Posts.js 
+vim app.js 
+vim routes/index.js 
+sudo npm start
+bg
+curl --data 'title=test2' http://localhost:80/posts
+curl http://localhost:80/posts
+fg
+clear
+vim routes/index.js 
+sudo npm start
+bg
+curl -X PUT http://localhost:80/posts/551192773ca69ffb410fea61/upvote
+fg
+clear
+vim app.js 
+vim routes/index.js 
+vim models/Comments.js 
+vim routes/index.js 
+sudo npm start
+bg
+curl --data 'body=good' http://localhost:80/posts/5514a997eae6940460c2eddd/comments
+clear
+vim routes/index.js 
+fg
+sudo npm start
+fg
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+fg
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+vim public/javascripts/angularApp.js 
+sudo npm start
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+vim public/javascripts/angularApp.js 
+sudo npm start
+claer
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+claer
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+clear
+vim public/javascripts/angularApp.js 
+sudo npm start
+cd ..
+git status
+git add .
+git status
+git init
+git add .
+git commit -m 'Lab9'
+git remote add origin https://github.com/davishyer/Angular.git
+git remote -v
+git push origin master
+cd weather-news/
+vim public/javascripts/angularApp.js 
+clear
+die
 sudo yum update
-ls
-cd Lab6/
-ls
-sudo nohup node server.js 
-exit
-cd Lab6/
-sudo nohup node server.js 
-nohup sudo node server.js 
-exit
-cd Lab6/
-ls
-sudo nohup node server.js 
-exit
-cd Lab6/
-ls
-vim nohup.out 
-rm nohup.out
-ls
-nohup node server.js 
-ls
-vim nohup.out 
-rm nohup.out 
-ps ax | grep server
-man killall
-killall 19953
-sudo nohup server.js --fork --logpath /var/log/mongodb.log
-ls
-sudo nohup node server.js --fork --logpath /var/log/mongodb.log
 clear
-exit
-cd Lab6/
-ls
-sudo nohup node server.js &
-cd /usr/local/src/
-sudo curl -O http://downloads.mongodb.org/linux/mongodb-linux-x86_64-2.4.8.tgz
-sudo tar -zxvf mongodb-linux-x86_64-2.4.8.tgz
-cd mongodb-linux-x86_64-2.4.8
-sudo cp bin/* /usr/local/bin
-sudo mkdir /data
-ls
-sudo mkdir /data/db
-sudo npm install mongodb@1.4.2 -g
-sudo npm install mongoose@3.8.8 -g
-ls
-cd ../..
-ls
-cd ../..
-ls
-cd ..
-ls
-cd home
-ls
-cd ec2-user/
-ls
-mkdir Lab7
-ls
-cd Lab6
-ls
-cd html/
-ls
-vim comments.html
-vim comments.html 
-ps ax | grep node
-kill 22607
-sudo kill 22607
-ps ax | grep node
-clear
-ls
-cd ..
-ls
-vim server.js 
-sudo node server.js 
-bg
-curl --data '{"Name":"Mickey","Comment":"Hello"}' http://localhost:80/comment
-ps ax | grep node
-sudo kill 1280
-ps ax | grep node
-clear
-cd ..
-cd Lab6
-ls
-vim server.js 
-sudo node server.js 
-bg
-curl --data '{"Name":"Mickey","Comment":"Hello"}' http://localhost:80/comment
-vim html/comments.html 
-mv comments.html service.html
-cd html/
-mv comments.html service.html
-ls
-cd ..
-vim server.js 
-bg
-sudo kill %1
-ps ax | grep node
-sudo kill 1299
-ps ax | grep node
-sudo node server.js 
-vim server.js 
-ps ax | grep node
-sudo node server.js 
-sudo npm install mongodb@1.4.2 -g
-sudo npm install mongoose@3.8.8 -g
-clear
-sudo node server.js 
-ls
-npm install mongo
-ls
-sudo node server.js 
-npm install mongodb
-sudo node server.js 
+cd dating-app/dating-app/
+git branch
+git status
+git add .
+git commit -m 'login'
+git push origin loginView
+git fetch
+git branch -r
 die
-exit
-cd Lab6
-die
-exit
 cd Lab6
 ls
+node express.js 
+ps ax | grep node
+sudo node express.js 
+cd ..
+cd Lab9/
+ls
+clear
+cd weather-news/
+sudo npm start
+bg
+fg
+cd Lab9/
+cd weather-news/
+sudo npm start
+ps ax | grep node
+clear
+cd ../../dating-app/dating-app/
+ls
+git branch
+git merge master
+git fetch
+git pull
+git merge master
+clear
+ls
+cd public/
+ls
+cd js/
+ls
+vim app.js
+mv facebook_angular.js fb_angular.js
+vim fb_angular.js 
+cd ..
+ls
+cd views/
+ls
+vim login.html 
+cd ..
+ls
+sudo node app.js 
+die
+sudo yum update
+clear
+ls
+cd Lab6
+ls
+sudo node express.js 
+clear
+ls
+vim express.js 
 cd html/
+ls
+cd ..
+cd html/
+cd service.html 
+vim service.html 
+cd public/
+ls
+vim index.html 
+cd ..
 ls
 cd cs360/
 ls
-cd test/
-ls
-cd../..
-ls
-cd ../..
-ls
-cd ..
-vim server.js 
-ps ax | grep node
-sudo node server.js 
-vim server.js 
-sudo node server.js
-ls
-cd Lab7
-ls
-cd ..
-rm Lab7
-rm -r Lab7
-ls
-cd Lab6/
-ls
-sudo node server.js 
-bg
-ls
-cd html/
-ls
-cd cs360/
-ls
-cd test/
-ls
-mv *.* ..
-ls
-cd ..
-ls
-cd test
-cd subDirectory/
-ls
-mv *.html ../..
-ls
-cd ..
-ls
-rm -r subDirectory/
-ls
-cd ..
-ls
-rm -r test
-ls
-sudo scp dhyer3@schizo.cs.byu.edu:~/Old-Labs/CS360/CGIServer/cs360/test5.cgi ~/Lab6/html/cs360
-ls
-die
-cd ..
-ls
-cd ..
-ls
 cd ..
 ls
 clear
-vim .bashrc
 ls
-cd Lab6/
+vim home.html 
+vim test
+vim test.html 
+vim test2.html 
+rm test.html
+rm test2.html
+vim test3.html 
+rm test3.html 
 ls
+cd ..
+ls
+vim server.js 
+vim html/
 cd html/
-cd ...
-quit
+ls
+vim service.html 
 cd ..
-vim .bashrc
+vim express.js 
+vim html/service.html 
+sudo node express.js 
+clear
+vim html/service.html 
+vim express.js 
+sudo node express.js 
+bg
+vim express.js 
 die
-exit
-cd Lab6/html/
-cd ...
-cd...
-vim .bashrc
+cd Lab9/
 ls
-rm .bashrc
+cd weather-news/
+sudo npm start
+ls
+cd 256
+mkdir 256
+cd 256
+git clone https://github.com/lastmj/socialdance180
+ls
+cd socialdance180/
+ls
+sudo node app.js 
 cd ..
+sudo node app.js
+cd socialdance180/
+ls
+vim app.js 
+which python
+python -m SimpleHTTPServer
+mkdir Lab11
+cd Lab11/
+express --ejs cluster
+npm start
+sudo npm start
+cd Lab11/
+ls
+cd cluster/
+ls
+cd bin/www 
+vim bin/www 
+npm install
+npm start
+vim views/index.ejs 
+vim routes/index.js 
+npm start
+hostname
+npm start
+vim routes/index.js 
+npm start
+clear
+vim views/index.ejs 
+vim public/javascripts/angularApp.js
+ls
+cd public/
 ls
 cd ..
-ls
-cd ..
-ls
-cd ec2-user/
-ls
-vim .bashrc
-die
-cd Lab6/html/
-cd ...
+vim public/javascripts/angularApp.js
+npm start
+vim views/index.ejs 
+vim public/javascripts/angularApp.js 
+npm start
+vim public/javascripts/angularApp.js 
+vim views/index.ejs 
+npm start
+vim views/index.ejs 
+vim public/javascripts/angularApp.js 
+npm start
+vim public/javascripts/angularApp.js 
+npm start
+vim views/index.ejs 
 cd ../..
-vim .bashrc
-die
-cd Lab6/html/
-cd...
-ls
-vim .bashrc
-die
 ls
 cd Lab6/
+cd ../Lab9/
 ls
+cd weather-news/
+ls
+cd public/
+ls
+cd ..
+cd views/
+ls
+cd ..
+cd routes/
+ls
+vim index.js 
+cd ..
+cp weather-news weather-news-temp
+ls
+cp -r weather-news weather-news-temp
+ls
+cd weather-news
+cd ..
+cd weather-news-temp/
+ls
+cd ..
+cd weather-news
+ls
+cd routes/
+ls
+vim index.js 
+rm index.js 
+vim index.js
+ls
+rm users.js 
+vim users.js
+cd ..
+sudo npm start
+clear
+cd ../weather-news-temp/
+sudo npm start
+cd ../weather-news
+sudo npm start
+vim public/javascripts/angularApp.js 
+cd public/javascripts/angularApp.js 
+cd public/javascripts
+rm angularApp.js 
+vim angularApp.js
+cd ../..
+sudo npm start
+vim routes/index.js 
+sudo npm start
+vim routes/index.js 
+cd Lab11/
+ls
+cd cluster/
+npm start
+vim routes/index.js 
+ls
+vim public/javascripts/angularApp.js 
+npm start
+cd Lab11
+ls
+cd cluster/
+ls
+vim views/index.ejs 
+vim public/javascripts/angularApp.js 
+vim views/index.ejs 
 die
